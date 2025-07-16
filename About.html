@@ -1,0 +1,468 @@
+﻿<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Triveni Journal</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="ThemeZaa">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 52+ ready demos.">
+        <!-- favicon icon -->
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <!-- google fonts preconnect -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <!-- style sheets and font icons  -->
+        <link rel="stylesheet" href="css/vendors.min.css">
+        <link rel="stylesheet" href="css/icon.min.css">
+        <link rel="stylesheet" href="css/style.min.css">
+        <link rel="stylesheet" href="css/responsive.min.css">
+        <link rel="stylesheet" href="demos/charity/charity.css">
+
+        <style>
+             .advisory-board-section {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #2a2a2a;
+  font-weight: bold;
+}
+.advisory-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.advisor-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.advisor-card:hover {
+  transform: translateY(-5px);
+}
+.advisor-card h3 {
+  font-size: 20px;
+  color: #003366;
+  margin-bottom: 5px;
+}
+.advisor-card p {
+  color: #666;
+  font-size: 16px;
+  margin: 0;
+}
+
+.publishers-section {
+  padding: 40px 20px;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #ddd;
+}
+.section-title {
+  text-align: center;
+  font-size: 26px;
+  color: #2a2a2a;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.publisher-info {
+  max-width: 600px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+.publisher-info a {
+  color: #003366;
+  text-decoration: none;
+}
+.publisher-info a:hover {
+  text-decoration: underline;
+}
+
+.trustees-section {
+  padding: 40px 20px;
+  background: #f3f6fa;
+  font-family: Arial, sans-serif;
+}
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  color: #2a2a2a;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.trustee-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.trustee-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.4;
+  transition: transform 0.3s ease;
+}
+.trustee-card:hover {
+  transform: translateY(-5px);
+}
+.trustee-card strong {
+  color: #003366;
+}
+
+.advisory-council-section {
+  padding: 40px 20px;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #2a2a2a;
+  font-weight: bold;
+}
+.council-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+.council-card {
+  background: #f7f9fc;
+  border-left: 5px solid #003366;
+  border-radius: 8px;
+  padding: 15px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  font-size: 15px;
+  line-height: 1.5;
+  transition: box-shadow 0.3s ease;
+}
+.council-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.council-card strong {
+  color: #003366;
+}
+        </style>
+    </head>
+    <body data-mobile-nav-style="classic">
+        <!-- start header -->
+        <header class="header-with-topbar"> 
+            <div class="header-top-bar top-bar-light bg-gradient-corduroy-green-dark-goldenrod disable-fixed">
+                <div class="container-fluid">
+                    <div class="row h-42px align-items-center justify-content-center">
+                        <div class="col-auto text-center">
+                            <span class="bg-black-transparent-light ps-15px pe-15px d-inline-block align-middle fs-10 text-uppercase text-white border-radius-4px fw-700 me-15px lh-26">Success stories</span>
+                            <div class=" d-inline-block align-middle fs-12 text-white text-uppercase fw-500">Triveni Journal turns 100 — Centennial Celebration Coming Soon!. </div>
+                            <!-- <a href="demo-charity-stories.html" class="text-decoration-line-bottom text-white">Read stories</a> -->
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <!-- start navigation -->
+            <nav class="navbar navbar-expand-lg header-light border-bottom border-color-transparent-dark-very-light  disable-fixed background-position-left-top" style="background-image: url('images/demo-charity-home-bg-01.jpg')">
+                <div class="container-fluid justify-content-lg-start">
+                    <div class="col-auto">
+                        <a class="navbar-brand" href="Index.html">
+                            <img src="flogo.png" data-at2x="images/demo-charity-logo-black@2x.png" alt="" class="default-logo">
+                            <img src="images/demo-charity-logo-black.png" data-at2x="images/demo-charity-logo-black@2x.png" alt="" class="alt-logo">
+                            <img src="images/demo-charity-logo-black.png" data-at2x="images/demo-charity-logo-black@2x.png" alt="" class="mobile-logo"> 
+                        </a>
+                    </div>
+                    <div class="col-auto menu-order left-nav">
+                        <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-line"></span>
+                            <span class="navbar-toggler-line"></span>
+                            <span class="navbar-toggler-line"></span>
+                            <span class="navbar-toggler-line"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav"> 
+                            <ul class="navbar-nav"> 
+                                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="About.html" class="nav-link">About</a></li>
+                                <li class="nav-item"><a href="People.html" class="nav-link">Great People's</a></li>
+                                <li class="nav-item"><a href="Gallery.html" class="nav-link">Gallery</a></li>
+                                <li class="nav-item"><a href="Membership.html" class="nav-link" download>Membership<span class="label bg-dark-gray text-white border-radius-26px">Download</span></a></li>
+                                <!-- <li class="nav-item"><a href="demo-charity-stories.html" class="nav-link">Stories</a></li> -->
+                                <li class="nav-item"><a href="Contact.html" class="nav-link">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto ms-auto d-none d-xl-flex">
+                        <div class="header-icon">
+                            <div class="d-none d-xxl-inline-block me-25px"><a href="tel:1800222000" class="widget-text text-dark-gray fs-16 fw-600"><i class="feather icon-feather-phone-outgoing me-10px"></i>1 800 222 000</a></div>
+                            <div class="header-button"><a target="_blank" href="https://trivenijournal.org/pdffiles/2025/contents2025.htm" class="btn btn-very-small btn-dark-gray btn-box-shadow btn-round-edge">Get a Latest Issue</a></div>
+                        </div> 
+                    </div>
+                </div>
+            </nav>
+            <!-- start push popup --> 
+        </header>
+        <!-- end header -->
+        <!-- start page title -->
+        
+        <!-- end page title -->
+        <!-- start section --> 
+        
+        <!-- end section -->
+        <!-- start section -->
+        <section class="background-position-left-top position-relative mt-6" style="background-image: url('images/demo-charity-home-bg-01.jpg')">
+            <div class="position-absolute left-0px top-minus-50px md-top-minus-40px sm-top-minus-20px xs-top-minus-19px background-position-left-top w-100 h-100px lg-h-50px background-size-100 background-no-repeat" style="background-image: url('images/demo-charity-home-bg-02.jpg')"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 text-center last-paragraph-no-margin" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+                        <h3 class="alt-font text-dark-gray fw-600">About Us</h3>
+                        <!-- <p class="w-60 md-w-70 sm-w-100 mx-auto">Currently have 102 project partners across in world that work on child issues.</p> -->
+                    </div>
+                </div>
+                <p>TRIVENI is devoted to Art, Literature, History and Culture. Its main function is to interpret through English the creative writing in different languages in India to the people of all states and to the world outside.</p>
+                <p>Founded on Dec. 25, 1927, at Madras, "TRIVENI" has been the organ of cultural renaissance in India for Eighty years. Devoted to Literature, History Art and to the propagation of idealism in every sphere of public life, the journal has fairly realized its aspirations of drawing together the varied and dispersed lovers of art and culture in the different parts of Bharat and its interpreting the Indian Renaissance in its manifold aspects to the world outside.</p>
+                <p>Coinciding with the celebrations of its Platinum Jubilee Year, the TRIVENI Foundation has decided to take the journal to readers all over the world. With this objective the TRIVENI Foundation has taken up the Project of Digitizing its Eighty years of publications. This digital data will be available on a CD(s) & will also be available for reading on the internet. This massive project involves digitizing and retrieving the text of nearly 30,000 to 40,000 pages of printed text. We are exploring the ways of propagating beautiful paintings and photographs printed in TRIVENI.</p>
+                <p>This project is sponsored in memory of Late Sri Kandi Srinivasa Rao garu, a freedom fighter and a true Gandhian, by his grandson Kandi Santosh, Prof. Y. Sreedhar Murthy, Managing Trustee, Shri Yabaluri Raghaviah Memorial trust and Mrs. Y. Suguna Thulasi, Director, Geological Survey of India. All available issues from 1928 to 1977 of TRIVENI have been digitized and are available in digital mode. We invite suggestions for successful implementation of this mega project.</p>
+                <div class="row row-cols-1 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 justify-content-center transition-inner-all mb-5 md-mb-15px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+                    <!-- start interactive banner item -->
+                    <div class="col interactive-banner-style-02 hover-box dark-hover lg-mb-30px">
+                        <div class="h-100 text-center position-relative box-shadow-quadruple-large box-shadow-quadruple-large-hover border-radius-6px overflow-hidden last-paragraph-no-margin">
+                            <figure class="m-0">
+                                <a href="demo-charity-causes.html"><img src="images/avtar-18.jpg" alt=""></a>
+                                <figcaption class="position-absolute bottom-0px bg-white p-40px pt-30px w-100 xl-p-30px">
+                                    <div class="position-relative z-index-2">
+                                        
+                                        <p class="fs-19 fw-500 text-dark-gray d-inline-block mb-5px">Prof. Y. Sreedhar Murthy.</p>
+                                        <span class="text-light-opacity">Chairman</span>
+
+
+                                        
+                                    </div>
+                                    <div class="box-overlay bg-gradient-corduroy-green-dark-goldenrod-dark"></div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- end interactive banner item -->
+                    <!-- start interactive banner item -->
+                    <div class="col interactive-banner-style-02 hover-box dark-hover lg-mb-30px">
+                        <div class="h-100 text-center position-relative box-shadow-quadruple-large box-shadow-quadruple-large-hover border-radius-6px overflow-hidden last-paragraph-no-margin">
+                            <figure class="m-0">
+                                <a href="demo-charity-causes.html"><img src="images/avtar-18.jpg" alt=""></a>
+                                <figcaption class="position-absolute bottom-0px bg-white p-40px pt-30px w-100 xl-p-30px">
+                                    <div class="position-relative z-index-2">
+                                       
+                                        
+                                        <p class="fs-19 fw-500 text-dark-gray d-inline-block mb-5px">Kolavennu Ramakotiswara Rao.</p>
+                                        <span class="text-light-opacity">Founder Editor</span>
+                                    </div>
+                                    <div class="box-overlay bg-gradient-corduroy-green-dark-goldenrod-dark"></div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- end interactive banner item -->
+                     <!-- Dr. Bhavaraju Narasimha Rao.<br/> -->
+                    <!-- start interactive banner item -->
+                    <div class="col interactive-banner-style-02 hover-box dark-hover lg-mb-30px">
+                        <div class="h-100 text-center position-relative box-shadow-quadruple-large box-shadow-quadruple-large-hover border-radius-6px overflow-hidden last-paragraph-no-margin">
+                            <figure class="m-0">
+                                <a href="demo-charity-causes.html"><img src="images/avtar-18.jpg" alt=""></a>
+                                <figcaption class="position-absolute bottom-0px bg-white p-40px pt-30px w-100 xl-p-30px">
+                                    <div class="position-relative z-index-2">
+                                        
+                                        <p class="fs-19 fw-500 text-dark-gray d-inline-block mb-5px">Prof. I.V. Chalapati Rao</p>
+                                        <span class="text-light-opacity">Former Editor</span>
+                                    </div>
+                                    <div class="box-overlay bg-gradient-corduroy-green-dark-goldenrod-dark"></div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- end interactive banner item -->
+                    <!-- start interactive banner item -->
+                    <div class="col interactive-banner-style-02 hover-box dark-hover md-mb-30px">
+                        <div class="h-100 text-center position-relative box-shadow-quadruple-large box-shadow-quadruple-large-hover border-radius-6px overflow-hidden last-paragraph-no-margin">
+                            <figure class="m-0">
+                                <a href="demo-charity-causes.html"><img src="images/avtar-18.jpg" alt=""></a>
+                                <figcaption class="position-absolute bottom-0px bg-white p-40px pt-30px w-100 xl-p-30px">
+                                    <div class="position-relative z-index-2">
+                                        
+                                        <p class="fs-19 fw-500 text-dark-gray d-inline-block mb-5px">D. Ranga Rao.<br/><br/></p>
+                                        <span class="text-light-opacity"><br/>Editor</span>
+                                    </div>
+                                    <div class="box-overlay bg-gradient-corduroy-green-dark-goldenrod-dark"></div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- end interactive banner item -->
+                </div>
+
+                
+
+
+
+<!-- Board of Trustees Section -->
+<section class="trustees-section">
+  <div class="container">
+    <h2 class="section-title">Board of Trustees</h2>
+    <div class="trustee-grid">
+      <div class="trustee-card"><strong>Prof. Y. Sreedhar Murthy</strong><br>Chairman</div>
+      <div class="trustee-card">Prof. P. S. Sarma</div>
+      <div class="trustee-card">A. Venkat Rao, IPS (Retd.)</div>
+      <div class="trustee-card">V. Vijaya Kumar</div>
+      <div class="trustee-card">D. Chakrapani, IAS (Retd.)</div>
+      <div class="trustee-card">Triveni Madduluri</div>
+      <div class="trustee-card">Padmasri Dr. A. Saibaba Goud</div>
+      <div class="trustee-card">Prof. Muralikrishna Iyyanki</div>
+      <div class="trustee-card"><strong>P. Murali Krishnam Raju</strong><br>Treasurer</div>
+      <div class="trustee-card"><strong>S.T.L.S. Ravi Chandra</strong><br>Secretary</div>
+    </div>
+  </div>
+</section>
+
+<!-- Advisory Council Section -->
+<section class="advisory-council-section">
+  <div class="container">
+    <h2 class="section-title">Advisory Council</h2>
+    <div class="council-grid">
+      <div class="council-card">
+        <strong>Sri R. Prabhakara Rao, IPS (Retd.)</strong><br>
+        Former Director General of Police, Andhra Pradesh
+      </div>
+      <div class="council-card">
+        <strong>Dr. V. Kondal Rao</strong><br>
+        Chairman, Jayanthi Trust, Hyderabad
+      </div>
+      <div class="council-card">
+        <strong>Sri M. Gopalakrishna, IAS (Retd.)</strong><br>
+        Former Spl. Chief Secretary, Andhra Pradesh
+      </div>
+      <div class="council-card">
+        <strong>Sri A. V. Appa Rao</strong><br>
+        Chief Engineer (Retd.), Hyderabad
+      </div>
+      <div class="council-card">
+        <strong>Dr. Vijay R. Kolavennu</strong><br>
+        San Francisco, USA
+      </div>
+      <div class="council-card">
+        <strong>Sri L.V. Subrahmanyam, IAS (Retd.)</strong><br>
+        Former Chief Secretary, Andhra Pradesh
+      </div>
+      <div class="council-card">
+        <strong>Padmasri Dr. Harsh Gupta</strong>
+      </div>
+      <div class="council-card">
+        <strong>Prof. Jonnalagadda Anuradha</strong>
+      </div>
+      <div class="council-card">
+        <strong>Prof. P. Uma Maheshwar Reddy</strong>
+      </div>
+      <div class="council-card">
+        <strong>Sri Y.S.R. Venkat Rao</strong>
+      </div>
+      <div class="council-card">
+        <strong>Prof. Ravi Chandra</strong>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="advisory-board-section">
+  <div class="container">
+    <h2 class="section-title">Advisory Board</h2>
+    <div class="advisory-list">
+      <div class="advisor-card">
+        <h3>Dr. Prema Nandakumar</h3>
+        <p>Trichy</p>
+      </div>
+      <div class="advisor-card">
+        <h3>V. Sivaramakrishnan</h3>
+        <p>Mumbai</p>
+      </div>
+      <div class="advisor-card">
+        <h3>Manoj Das</h3>
+        <p>Pondichery</p>
+      </div>
+      <div class="advisor-card">
+        <h3>M.V.R. Sastry</h3>
+        <p>Secunderabad</p>
+      </div>
+      <div class="advisor-card">
+        <h3>N. Sitarambai</h3>
+        <p>Hyderabad</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="publishers-section">
+  <div class="container">
+    <h2 class="section-title">Publishers</h2>
+    <div class="publisher-info">
+      <p><strong>Address:</strong><br>
+        4-1-104/1, Street No 3,<br>
+        Bhavani Nagar, Nacharam<br>
+        Hyderabad, Telangana – 500076</p>
+
+      <p><strong>Email:</strong><br>
+        <a href="mailto:trivenijournal@yahoo.com">trivenijournal@yahoo.com</a></p>
+
+      <p><strong>Website:</strong><br>
+        <a href="https://trivenijournal.org" target="_blank">trivenijournal.org</a></p>
+    </div>
+  </div>
+</section>
+
+                
+            </div>
+        </section>
+        <!-- end section -->
+        <!-- start section -->
+        
+        <!-- end section -->
+        <!-- start section --> 
+        
+        <!-- end section -->  
+        <!-- start footer -->
+        <footer class="cover-background background-position-center-top pb-0">
+          
+            
+            <div class="bg-racing-green">
+                <div class="container">
+                    <div class="row align-items-center"> 
+                        <div class="col-lg-5 text-center text-lg-start md-mb-5px"> 
+                           <span class="fs-15 text-light-conch-green">Copyright &copy; 2025 Triveni Journal. All rights reserved.</span>
+                        </div> 
+                        <div class="col-lg-7 text-center text-lg-end">
+                            <span class="fs-15 text-light-conch-green"><a href="https://www.kalyantejahub.in/" target="_blank" class="text-white">Designed & Developed by : KalyanTeja Inspired Web Solutions.</a></span>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+        <!-- start scroll progress -->
+        <div class="scroll-progress d-none d-xxl-block">
+            <a href="#" class="scroll-top" aria-label="scroll">
+                <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+            </a>
+        </div>
+        <!-- end scroll progress -->
+        <!-- javascript libraries -->
+        <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/vendors.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
