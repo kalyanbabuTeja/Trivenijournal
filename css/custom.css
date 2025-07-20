@@ -1,0 +1,84 @@
+
+.btn.btn-very-small {
+animation: zoomPulse 2s infinite ease-in-out;
+}
+
+@keyframes zoomPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+
+ 
+
+
+.latest-issue-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.latest-issue-btn {
+  position: relative;
+  padding: 12px 24px;
+  background: #fff;
+  color: #ff416c;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+  animation: zoomPulse 2s infinite ease-in-out;
+  box-shadow: 0 4px 15px rgba(255, 65, 108, 0.3);
+}
+
+.latest-issue-wrapper::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 60px;
+  background: conic-gradient(#ff416c, #ff4b2b, #ff416c);
+  animation: rotateBorder 2s linear infinite;
+  z-index: 0;
+}
+
+.latest-issue-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  border-radius: 50px;
+  z-index: 0;
+}
+
+/* Zoom pulse effect */
+@keyframes zoomPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+/* Rotating border */
+@keyframes rotateBorder {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
